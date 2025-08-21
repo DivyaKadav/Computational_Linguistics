@@ -40,7 +40,6 @@ def marathi_verb_pluralisation(verb, gender, number):
     # Get the verb form based on the subject's gender and number
     verb_form = verb_conjugation[(gender, number)]
     return verb_form ```
----
 
 ## What I coded
 
@@ -56,8 +55,6 @@ print(marathi_verb_pluralisation('pi', 'neuter', 'singular'))       # pit
 print(marathi_verb_pluralisation('bagh', 'neuter', 'plural'))       # baghat
 print(marathi_verb_pluralisation('sang', 'feminine', 'singular'))   # sangti
 
----
-
 ### Output
 
 khaāt
@@ -72,34 +69,3 @@ pit
 baghat
 sangti
 
----
-
-##🔹 Input Requirements
-
-gender must be one of: masculine, feminine, neuter
-
-number must be one of: singular, plural
-
-verb must be a verb root in plain Latin script without spaces
-
----
-
-##🔹 Limitations
-
-This script is not linguistically accurate and does not cover real tense/aspect conjugations.
-
-It does not handle exceptions, irregular verbs, or the actual Devanagari script.
-
-It is for demonstration and educational purposes only.
-
----
-
-##🔹 Future Improvements
-
-Add input validation and error handling
-
-Extend rules to cover tenses and aspects
-
-Add support for Devanagari script output (e.g., खा → खातो, खातात)
-
-Package the function with tests and CI/CD for Python
