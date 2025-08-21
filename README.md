@@ -1,3 +1,37 @@
+# NLP Project: Text Analysis with the Gutenberg Corpus
+
+This project uses the **NLTK (Natural Language Toolkit)** library to analyze texts from the **Gutenberg corpus**.  
+It demonstrates how to load data, explore concordances, and compute basic statistics such as average word length, sentence length, and vocabulary diversity.  
+This is an introductory NLP project for working with real literature data.
+
+---
+
+## 🔹 Step 1: Install and Import NLTK
+
+```python
+import nltk
+
+# Download required datasets
+nltk.download('gutenberg')
+nltk.download('punkt')
+```
+
+from nltk.corpus import gutenberg
+
+# List available texts
+print(gutenberg.fileids())
+
+['austen-emma.txt',
+ 'austen-persuasion.txt',
+ 'austen-sense.txt',
+ 'bible-kjv.txt',
+ 'shakespeare-hamlet.txt',
+ 'shakespeare-macbeth.txt',
+ 'shakespeare-caesar.txt']
+
+---
+---
+
 # Marathi Verb Tense Conjugator (Demo)
 
 This repository contains a simple Python function that generates verb forms for **different tenses** by attaching suffixes to a given verb root.  
