@@ -7,7 +7,7 @@ It is a **demo model** to demonstrate basic morphological rules in Marathi, not 
 
 ## 🔹 How It Works
 The function `marathi_verb_pluralisation(verb, gender, number)` takes:
-- `verb`: a verb root in Latin script (e.g., `"kha"`, `"ja"`, `"bol"`)  
+- `verb`: a verb root in Latin script (technically you can take Marathi Script for this, but for my convenience I have used Latin Script as we commonly use Hinglish/Minglish on Whatsapp and I wanted to try with this first) (e.g., `"kha"`, `"ja"`, `"bol"`)  
 - `gender`: `"masculine"`, `"feminine"`, or `"neuter"`  
 - `number`: `"singular"` or `"plural"`
 
