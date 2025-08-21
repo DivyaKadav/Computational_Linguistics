@@ -1,7 +1,7 @@
-# Marathi Verb Pluralisation (Toy Conjugator)
+# Marathi Verb Pluralisation
 
 This repository contains a simple Python function that generates verb forms by attaching suffixes to a given verb root based on gender and number.  
-It is a **toy model** to demonstrate basic morphological rules in Marathi, not a linguistically complete conjugator.
+It is a **demo model** to demonstrate basic morphological rules in Marathi, not a linguistically complete conjugator.
 
 ---
 
