@@ -1,7 +1,7 @@
 # 📝 Divya Kadav — Language & NLP Mini Projects
 
 This repository is a collection of my **mini projects** in **Marathi Morphology** and **Natural Language Processing (NLP)**.  
-Each project demonstrates a focused concept: verb conjugation, pluralization, or text analysis.These are mini-project assignments I have done in my university.
+Each project demonstrates a focused concept: verb conjugation, pluralization, or text analysis. These are mini-project assignments I have done in my university.
 
 
 ---
