@@ -39,8 +39,7 @@ def marathi_verb_pluralisation(verb, gender, number):
 
     # Get the verb form based on the subject's gender and number
     verb_form = verb_conjugation[(gender, number)]
-
-    return verb_form```
+    return verb_form ```
 ---
 
 ## What I coded
