@@ -98,6 +98,7 @@ def marathi_verb_tense(verb, tense):
         verb_form = verb_conjugation['past']['third_plural']
 
     return verb_form
+``` 
 
 # Marathi Verb Pluralisation
 
@@ -140,7 +141,9 @@ def marathi_verb_pluralisation(verb, gender, number):
 
     # Get the verb form based on the subject's gender and number
     verb_form = verb_conjugation[(gender, number)]
-    return verb_form ```
+    return verb_form
+```
+---
 
 ## What I coded
 
@@ -155,6 +158,8 @@ print(marathi_verb_pluralisation('bhet', 'feminine', 'plural'))     # bhetti
 print(marathi_verb_pluralisation('pi', 'neuter', 'singular'))       # pit
 print(marathi_verb_pluralisation('bagh', 'neuter', 'plural'))       # baghat
 print(marathi_verb_pluralisation('sang', 'feminine', 'singular'))   # sangti
+
+---
 
 ### Output
 
