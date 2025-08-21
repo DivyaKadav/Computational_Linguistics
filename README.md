@@ -1,3 +1,56 @@
+# 📝 Divya Kadav — Language & NLP Mini Projects
+
+This repository is a collection of my **mini projects** in **Marathi Morphology** and **Natural Language Processing (NLP)**.  
+Each project demonstrates a focused concept: verb conjugation, pluralization, or text analysis.
+
+---
+
+## 📂 Project List
+
+### 1️⃣ Marathi Verb Pluralisation (Demo)
+- **Goal:** Create a toy Python function that attaches suffixes to verb roots based on **gender** (masculine/feminine/neuter) and **number** (singular/plural).  
+- **Skills:** Morphological rules, dictionary mapping, Python functions.  
+- **Example:** `marathi_verb_pluralisation("kha", "masculine", "singular") → "khaāt"`  
+
+---
+
+### 2️⃣ Marathi Verb Tense Conjugator (Demo)
+- **Goal:** Build a Python function to generate verb forms for **present, past, future, and imperative** tenses.  
+- **Skills:** Morphological suffixation, handling multiple tense categories, toy linguistic modeling.  
+- **Example:**  
+  - Present tense (Emma): `{"first_singular": "khato", "second_singular": "khatos", "third_plural": "khatat"}`  
+  - Past tense (Khel): `{"first_singular": "khello", "third_plural": "khelle"}`  
+
+---
+
+### 3️⃣ NLP Text Analysis with NLTK Gutenberg Corpus
+- **Goal:** Use the **NLTK** library to analyze classic texts (Austen, Shakespeare, Bible).  
+- **Tasks:**  
+  - Load corpus texts  
+  - Find **concordances** (keyword in context)  
+  - Compute text statistics:  
+    - Average word length  
+    - Average sentence length  
+    - Vocabulary diversity  
+- **Skills:** Corpus linguistics, NLP preprocessing, Python text analysis.  
+- **Example Output:**  
+
+---
+
+---
+
+### 4️⃣ Marathi Pluralization for Nouns and Adjectives
+- **Goal:** Demonstrate how Marathi **nouns and adjectives** change in plural form.  
+- **Focus:** Feminine pluralization patterns such as **-i**, **-a**, and **-ya**, along with agreement in pronouns and verbs.  
+- **Skills:** Morphological agreement, applied linguistics, grammatical rules.  
+- **Example:**  
+- Feminine singular → *mulgi* (girl)  
+- Feminine plural → *mulya* (girls)  
+
+---
+
+
+
 # NLP Project: Text Analysis with the Gutenberg Corpus
 
 This project uses the **NLTK (Natural Language Toolkit)** library to analyze texts from the **Gutenberg corpus**.  
